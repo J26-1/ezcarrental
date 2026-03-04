@@ -1,0 +1,101 @@
+import { Car, Review } from './types';
+
+export const cars: Car[] = [
+  {
+    id: '1',
+    name: 'Perodua Axia',
+    type: 'Compact',
+    price: 130,
+    image: 'https://paultan.org/image/2023/05/Perodua-Axia-E-manual-e1683268295476.jpg',
+    specs: { passengers: 5, transmission: 'Auto', fuel: 'Petrol' },
+  },
+  {
+    id: '2',
+    name: 'Perodua Bezza',
+    type: 'Sedan',
+    price: 140,
+    image: 'https://cdn1.npcdn.net/images/17255077704e6f6e8029acc350e3ff40dcdcf9dafb.webp?md5id=df35ddf90fe44c0afd1a334f5d2aa398&new_width=1000&new_height=1000&w=1725505785&from=png&type=9',
+    specs: { passengers: 5, transmission: 'Auto', fuel: 'Petrol' },
+  },
+  {
+    id: '3',
+    name: 'Perodua Myvi',
+    type: 'Hatchback',
+    price: 250,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Perodua_MyVi_%28front%29%2C_Kuala_Lumpur.jpg/1280px-Perodua_MyVi_%28front%29%2C_Kuala_Lumpur.jpg',
+    specs: { passengers: 5, transmission: 'Auto', fuel: 'Petrol' },
+  },
+  {
+    id: '4',
+    name: 'Toyota Vios',
+    type: 'Sedan',
+    price: 250,
+    image: 'https://toyotalucena.com/storage/app/uploads/public/60c/082/fa3/60c082fa3ecd3306318258.jpg',
+    specs: { passengers: 5, transmission: 'Auto', fuel: 'Petrol' },
+  },
+  {
+    id: '5',
+    name: 'Perodua Aruz',
+    type: 'SUV',
+    price: 250,
+    image: 'https://perodua.my/wp-content/uploads/2022/01/2-1.png.webp',
+    specs: { passengers: 7, transmission: 'Auto', fuel: 'Petrol' },
+  },
+  {
+    id: '6',
+    name: 'Toyota Innova',
+    type: 'MPV',
+    price: 350,
+    image: 'https://img.pcauto.com/model/images/cms/2025/05/25763458_org.jpg',
+    specs: { passengers: 8, transmission: 'Auto', fuel: 'Petrol' },
+  },
+  {
+    id: '7',
+    name: 'Toyota Fortuner',
+    type: 'Luxury SUV',
+    price: 600,
+    image: 'https://assets.autobuzz.my/wp-content/uploads/2024/08/16202129/2024-Toyota-Fortuner-SRZ-GR-Bodykit-2.jpg',
+    specs: { passengers: 7, transmission: 'Auto', fuel: 'Diesel' },
+  },
+  {
+    id: '8',
+    name: 'Nissan Urvan NV350',
+    type: 'Van',
+    price: 400,
+    image: 'https://imgcdn.zigwheels.my/large/gallery/color/30/538/nissan-nv350-urvan-color-346401.jpg',
+    specs: { passengers: 12, transmission: 'Manual', fuel: 'Diesel' },
+  },
+  {
+    id: '9',
+    name: 'Toyota Vellfire',
+    type: 'Premium MPV',
+    price: 850,
+    image: 'https://www.ccarprice.com/products/Toyota_Vellfire_2024.jpg',
+    specs: { passengers: 7, transmission: 'Auto', fuel: 'Petrol' },
+  },
+  {
+    id: '10',
+    name: 'Mitsubishi Triton',
+    type: 'Pickup Truck',
+    price: 400,
+    image: 'https://www.mitsubishi-motors.com.my/wp-content/uploads/2024/03/triton-at-premium-limited-edition.webp',
+    specs: { passengers: 5, transmission: 'Auto', fuel: 'Diesel' },
+  }
+
+];
+
+export const reviews: Review[] = [
+  { id: 'r1', text: 'Booked with EZ Car Rental for my Langkawi trip. The car was clean, pickup was smooth, and the staff were very friendly. Price was reasonable too. Will definitely book again!' },
+  { id: 'r2', text: 'Very fast response on WhatsApp and no hidden charges. The car condition was excellent. Highly recommended for business trips in KL.' },
+  { id: 'r3', text: 'Process was easy from booking to return. Deposit refunded on time. Honest and reliable service.' },
+  { id: 'r4', text: 'Servis memang terbaik! Kereta bersih dan wangi. Staff sangat mesra dan proses ambil kereta cepat. Memang puas hati.' },
+  { id: 'r5', text: 'Harga berpatutan dan tiada caj tersembunyi. Senang berurusan. InsyaAllah akan sewa lagi dengan EZ Car Rental.' },
+  { id: 'r6', text: 'Kereta dalam keadaan tip-top. Pickup dan return sangat mudah. Recommended!' },
+  { id: 'r7', text: '服务很好，工作人员很亲切。车子很干净，取车还车都很顺利。下次一定再租。' },
+  { id: 'r8', text: '价格合理，没有隐藏费用。通过WhatsApp联系非常方便，回复也很快。' },
+  { id: 'r9', text: '第一次在马来西亚租车，体验很好。流程简单，值得推荐。' },
+  { id: 'r10', text: 'I rented a car from EZ Car Rental for 5 days during my family trip to Langkawi, and the whole experience exceeded my expectations. The booking process was very straightforward, and they responded quickly on WhatsApp. The car was delivered on time, clean inside and out, and in excellent condition. What I appreciated most was the transparency — no hidden charges and the deposit was refunded promptly after inspection. The staff were professional, patient, and explained everything clearly. I will definitely use EZ Car Rental again for my next trip.' },
+  { id: 'r11', text: 'Needed a car for a last-minute business trip in Kuala Lumpur and EZ Car Rental saved the day. They arranged everything within a few hours. The vehicle was fuel-efficient, comfortable, and well-maintained. Pickup and return process was smooth and hassle-free. Their pricing is competitive compared to other rental companies I checked. Highly recommended for both tourists and business travelers.' },
+  { id: 'r12', text: 'Pengalaman pertama saya sewa dengan EZ Car Rental dan memang tak mengecewakan. Dari awal sampai akhir semuanya smooth. Ambil kereta tepat pada masa, condition kereta tip-top dan wangi. Harga pun berpatutan berbanding syarikat lain. InsyaAllah akan repeat lagi.' },
+  { id: 'r13', text: '这次在马来西亚旅游选择了EZ Car Rental，整体体验非常满意。从预订开始就很顺利，客服回复很快，也很有耐心地解答我的问题。取车时工作人员讲解清楚，车子干净、性能很好，驾驶起来很安心。价格透明，没有任何隐藏费用。还车过程也非常顺畅，押金很快就退回。下次来一定会再次选择他们。' },
+];
